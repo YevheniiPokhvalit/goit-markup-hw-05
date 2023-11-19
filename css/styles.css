@@ -615,6 +615,7 @@ img {
 
 .form-group-checkbox {
   margin-bottom: 24px;
+  display: inline-flex;
 }
 
 .checkbox-label {
