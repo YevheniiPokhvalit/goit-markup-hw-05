@@ -628,7 +628,6 @@ img {
 }
 
 .checkbox-icon {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -639,10 +638,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.checkbox {
-  display: inline-flex;
 }
 
 #user-privacy:checked + .checkbox-label .checkbox-icon {
