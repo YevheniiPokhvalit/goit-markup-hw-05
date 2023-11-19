@@ -78,6 +78,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 
 .logo {
@@ -121,18 +122,21 @@ img {
 
 .nav-menu {
   display: inline-block;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 24px 0;
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-menu::after {
+.nav-menu-studio {
+  color: #404bbf;
+}
+
+.nav-menu-studio::after {
   content: '';
   position: absolute;
   left: 0;
@@ -140,6 +144,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 
 .header-address {
@@ -180,6 +185,7 @@ img {
   background-size: cover;
   background-color: rgba(46, 47, 66, 0.7);
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -309,11 +315,6 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-list .section-list-text,
-.our-portfolio-list .section-list-title {
-  padding-left: 16px;
-}
-
 .porfolio-img-wrap {
   position: relative;
   overflow: hidden;
@@ -348,7 +349,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .footer {
@@ -377,7 +377,6 @@ img {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .footer-logo-text {
   color: #f4f4fd;
@@ -540,8 +539,6 @@ img {
 
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: black;
-  stroke: black;
 }
 
 .close-button:hover .close-icon,
@@ -667,8 +664,4 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-icon-svg {
-  display: inline-flex;
 }
