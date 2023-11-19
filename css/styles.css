@@ -641,6 +641,10 @@ img {
   fill: transparent;
 }
 
+.checkbox {
+  display: inline-flex;
+}
+
 #user-privacy:checked + .checkbox-label .checkbox-icon {
   background-color: #404bbf;
   border: none;
