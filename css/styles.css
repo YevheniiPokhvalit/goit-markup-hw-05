@@ -486,6 +486,7 @@ img {
 }
 
 .model-window {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -525,4 +526,23 @@ img {
 .close-button:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--your-font-color-variable, #2e2f42);
+  margin-bottom: 16px;
+}
+
+.close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-button:hover .close-icon,
+.close-button:focus .close-icon {
+  fill: #ffffff;
 }
