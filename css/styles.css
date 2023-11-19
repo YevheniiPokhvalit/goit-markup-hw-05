@@ -418,3 +418,11 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+.model-window-form {
+  display: flex;
+  gap: 24px;
+}
+
+.model-window-label {
+}
